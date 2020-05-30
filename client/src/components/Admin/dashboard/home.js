@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import MaterialTable from 'material-table';
 import NavBar from './navBar'
+import Delete from '@material-ui/icons/Delete';
 import Grid from '@material-ui/core/Grid'
 import axios from '../../../config/axios'
 
@@ -67,10 +68,9 @@ class Home extends Component {
                                         title="Visitors Table"
                                         columns={this.state.columns}
                                         data={this.state.data}
-
                                         actions={[
                                             {
-                                                icon: 'delete',
+                                                icon: "delete",
                                                 tooltip: 'Delete User',
                                                 onClick: this.handleDelete
                                             }
