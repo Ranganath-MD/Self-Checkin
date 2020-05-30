@@ -88,18 +88,9 @@ class NavBar extends Component {
                         <Button className={classes.button} component={Link} to="/admin/dashboard" >
                             Visitors
                         </Button>
-                        <div className="dropdown" style={{}} >
-                            <button className="dropbtn" style={{ border: 'none', outline: 'none', marginRight: '40px' }}  >
-                                <center>
-                                    <Grid container  >
-                                        <Avatar className={classes.orangeAvatar}>A</Avatar>
-                                    </Grid>
-                                </center></button>
-                            <div className="dropdown-content"  >
-                                <Link to="/admin/logout"><SettingsPower> </SettingsPower> &nbsp; Log Out</Link>
-                            </div>
-                        </div>
-
+                        <Button className={classes.button} component={Link} to="/admin/dashboard" >
+                            <Link to="/admin/logout"><SettingsPower> </SettingsPower> &nbsp; Log Out</Link>
+                        </Button>
                     </Toolbar>
                 </AppBar>
             </div >
