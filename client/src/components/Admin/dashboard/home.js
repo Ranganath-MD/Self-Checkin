@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import MaterialTable from 'material-table';
 import NavBar from './navBar'
-import Delete from '@material-ui/icons/Delete';
 import Grid from '@material-ui/core/Grid'
 import axios from '../../../config/axios'
 
