@@ -13,7 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "aws-sdk": "^2.504.0",
+    "aws-sdk": "^2.814.0",
     "base64-img": "^1.0.4",
     "bcryptjs": "^2.4.3",
     "concurrently": "^4.1.1",
